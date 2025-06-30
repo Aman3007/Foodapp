@@ -6,6 +6,7 @@
 
 html,
 body {
+
     background-color: rgb(253, 251, 251);
     color: #faf8f8;
     font-family: sans-serif;
@@ -39,11 +40,12 @@ h1 {
 }
 
 .hero-text-box {
-    width: 100vh;
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    
+       width: 90%;
+    max-width: 600px;
+   padding-top: 10rem;
+   padding-left: 4rem;
+  
 }
 
 .btn:link,
@@ -136,7 +138,7 @@ input[type=submit] {
 
   justify-content: center;
 }
-.row2,
+
 .row4,
 .row5,
 .row6,
@@ -145,9 +147,13 @@ input[type=submit] {
     color: black;
     padding-left: 2rem;
     padding-right: 2rem;
+  
 }
 
+.row2{
+     color: black;
 
+}
 
 .row6 {
     display: flex;
@@ -157,9 +163,14 @@ input[type=submit] {
 
 .row3 {
     color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 section {
+    width: 100%;
     margin-top: 1rem;
 }
 
@@ -171,7 +182,9 @@ section {
     margin-right: 30px;
 }
 
+
 .section-features {
+    width: 100%;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1rem;
@@ -210,21 +223,23 @@ margin-bottom: 50px;
 }
 .long-copy {
     line-height: 145%;
-    width: 70%;
-    margin-left: 17%;
+    width: 100%;
+    padding-left: 2rem;
     margin-bottom: 20px;
 }
 
 .box {
+    
     padding: 1%;
     border: 1px solid orangered;
-    box-shadow: 5px 5px 5px black;
-    border-radius: 3%;
+       box-shadow: 5px 5px 5px orangered;
+    
 }
 
 .box:hover {
+    cursor: pointer;
     border: 1px solid black;
-    box-shadow: 5px 5px 5px orangered;
+    box-shadow: 5px 5px 5px rgb(19, 19, 19);
 }
 
 h3 {
@@ -245,7 +260,9 @@ h3 {
     color: orangered;
     margin-bottom: 10px;
 }
-
+.section-meals{
+    padding: 1rem; 
+}
 
 .meals-showcase {
     display: flex;
@@ -294,7 +311,17 @@ h3 {
 
 .work-steps {
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
 }
+.steps-box {
+    flex: 1;
+    min-width: 280px;
+    max-width: 550px;
+}
+
 
 .steps-box:first-child {
     text-align: center;
@@ -308,38 +335,40 @@ h3 {
 }
 
 .app-screen {
-    width: 55%;
-       height: 55%;
+    max-width: 300px;
+    height: auto;
 }
+
 
 .work-steps div {
     color: orangered;
     border: 4px solid orangered;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     height: 45px;
     width: 45px;
-    align-items: center;
-    padding: 10px;
-    padding-left: 14px;
-    float: left;
     font-size: 18px;
     margin-right: 10px;
 }
+
 
 .work-steps p {
     padding-top: 10px;
 
 }
-.dim{
+.dim {
     display: flex;
     flex-direction: row;
- 
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
 }
 
 .btn-app img {
-    height: 5rem;
+    height: 3rem;
     width: auto;
 }
 .apple img{
@@ -352,11 +381,14 @@ h3 {
 }
 
 .section-steps {
-    height: 100vh;
     width: 100%;
     background-color: rgb(235, 243, 253);
-      
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .city-features li {
     list-style: none;
@@ -384,6 +416,7 @@ h3 {
    
     margin-bottom: 20px;
 }
+
 
 .city-features li a {
     color: rgb(16, 174, 226);
@@ -442,10 +475,14 @@ blockquote::before {
     margin: 0;
     display: flex;
     flex-direction:column ;
+    justify-content: center;
+ align-items: center;
     background-image: linear-gradient(rgba(255, 253, 252, 0.993), rgba(253, 251, 253, 0.966));
 }
 
 .plan-box {
+
+ 
     width: 17rem;
     line-height: 150%;
     
@@ -479,9 +516,7 @@ span {
 }
 
 .plan-box:hover {
-    height: 20.3rem;
-    width: 17.3rem;
-    padding: 2rem;
+   box-shadow: 5px 5px 5px orangered;
 }
 
 .plan-box div:last-child {
