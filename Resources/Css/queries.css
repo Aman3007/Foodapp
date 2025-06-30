@@ -43,7 +43,7 @@
 /* Medium Devices (Tablets: 768px to 991px) */
 @media (max-width: 991px) {
      header {
-        height: 50vh;
+        height: 65vh;
         background-attachment: scroll;
     }
     .box{
