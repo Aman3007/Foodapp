@@ -32,7 +32,7 @@ body {
 header {
     height: 100vh;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Foodapp/Resources/images/bgggg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Resources/images/bgggg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -444,7 +444,7 @@ h3 {
 }
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(102, 24, 24, 1), rgba(248, 106, 106, 0.7)), url("/Foodapp//Resources/images/sect-bg.jpg");
+    background-image: linear-gradient(rgba(102, 24, 24, 1), rgba(248, 106, 106, 0.7)), url("/Resources/images/sect-bg.jpg");
     background-size: cover;
     color: white;
     background-attachment: fixed;
