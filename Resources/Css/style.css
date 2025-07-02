@@ -6,7 +6,12 @@
 header{
     height: auto;
 }
-
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fd6906;
+}
 html,
 body {
 
@@ -19,11 +24,15 @@ body {
     overflow-x: hidden;
 }
 
-
+.navbar{
+    display: flex;
+ 
+    justify-content:space-around ;
+}
 header {
     height: 100vh;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Resources/images/bgggg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Foodapp/Resources/images/bgggg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -136,6 +145,9 @@ input[type=submit] {
     font-size: 1.2rem;
     color: rgb(200, 162, 235);
     border-bottom: 2px solid orange;
+}
+.nav{
+    text-decoration: none;
 }
 .row {
 
@@ -432,7 +444,7 @@ h3 {
 }
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(102, 24, 24, 1), rgba(248, 106, 106, 0.7)), url("/Resources/images/sect-bg.jpg");
+    background-image: linear-gradient(rgba(102, 24, 24, 1), rgba(248, 106, 106, 0.7)), url("/Foodapp//Resources/images/sect-bg.jpg");
     background-size: cover;
     color: white;
     background-attachment: fixed;
