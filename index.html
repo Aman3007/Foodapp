@@ -5,30 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Project</title>
-    <link rel="stylesheet" href="/vendors/CSS/css/col.css">
-    <link rel="stylesheet" href="/vendors/CSS/css/4cols.css">
-    <link rel="stylesheet" href="/vendors/CSS/css/2cols.css">
-    <link rel="stylesheet" href="/vendors/CSS/css/3cols.css">
-    <link rel="stylesheet" href="/vendors/CSS/normalize.css">
-    <link rel="stylesheet" href="/Resources/Css/style.css">
-    <link rel="stylesheet" href="/Resources/Css/queries.css">
+    <link rel="stylesheet" href="vendors/CSS/css/col.css">
+    <link rel="stylesheet" href="vendors/CSS/css/4cols.css">
+    <link rel="stylesheet" href="vendors/CSS/css/2cols.css">
+    <link rel="stylesheet" href="vendors/CSS/css/3cols.css">
+    <link rel="stylesheet" href="vendors/CSS/normalize.css">
+    <link rel="stylesheet" href="Resources/Css/style.css">
+    <link rel="stylesheet" href="Resources/Css/queries.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="row">
-                <img class="logo" src="/Resources/Css/img/logo.jpg" alt="logo">
-                <ul class="services">
-                    <li><a class="nav" href="#dilivery">Food dilivery</a></li>
-                    <li><a class="nav" href="#works">How it works</a></li>
-                    <li><a class="nav" href="#city">Our cities</a></li>
-                    <li><a class="nav" href="#sign">sign up</a></li>
-                </ul>
-            </div>
-        </nav>
-        
+   
+<nav>
+  <div class="row">
+    <img class="logo" src="Resources/Css/img/logo.jpg" alt="logo">
+    
+    <div class="hamburger" onclick="toggleMenu()">
+      ☰
+    </div>
+    <ul class="services" id="nav-links">
+      <li><a class="nav" href="#dilivery">Food delivery</a></li>
+      <li><a class="nav" href="#works">How it works</a></li>
+      <li><a class="nav" href="#city">Our cities</a></li>
+      <li><a class="nav" href="#sign">Sign up</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
         <div class="hero-text-box">
 
             <h1>Goodbye junk food <br><span id="heading"> Hello healthy food </span> </h1>
@@ -88,22 +95,22 @@
         <ul class="meals-showcase starting clearfix">
             <li>
                 <figure class="meal-photo">
-                    <img src="/Resources/Css/img/one.jpg" alt="food-img">
+                    <img src="Resources/Css/img/one.jpg" alt="food-img">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/Resources/Css/img/two.jpg" alt="food-img">
+                    <img src="Resources/Css/img/two.jpg" alt="food-img">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/Resources/Css/img/three.jpg" alt="food-img">
+                    <img src="Resources/Css/img/three.jpg" alt="food-img">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/Resources/Css/img/four.jpeg" alt="food-img">
+                    <img src="Resources/Css/img/four.jpeg" alt="food-img">
                 </figure>
             </li>
         </ul>
@@ -111,22 +118,22 @@
         <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
-                    <img src="/Resources/Css/img/five.jpg" alt="food-img">
+                    <img src="Resources/Css/img/five.jpg" alt="food-img">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/Resources/Css/img/six.jpeg" alt="food-img">
+                    <img src="Resources/Css/img/six.jpeg" alt="food-img">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/Resources/Css/img/seven.jpeg" alt="food-img">
+                    <img src="Resources/Css/img/seven.jpeg" alt="food-img">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/Resources/Css/img/eight.jpeg" alt="food-img">
+                    <img src="Resources/Css/img/eight.jpeg" alt="food-img">
                 </figure>
             </li>
         </ul>
@@ -138,7 +145,7 @@
         <div class="row row4  clearfix">
             <div class="col span_1_of_4 box box2" id="city">
                 <div>
-                       <img src="/Resources/Css/img/uk.jpg" alt="lisbon">
+                       <img src="Resources/Css/img/uk.jpg" alt="lisbon">
                 <h3>Lisbon</h3>
                 </div>
              
@@ -150,7 +157,7 @@
             </div>
             <div class="col span_1_of_4 box box2">
                 <div>
-                    <img src="/Resources/Css/img/cali.jpg" alt="california">
+                    <img src="Resources/Css/img/cali.jpg" alt="california">
                 <h3>California</h3>
                 </div>
                 
@@ -162,7 +169,7 @@
             </div>
             <div class="col span_1_of_4 box box2">
                 <div>
-                       <img src="/Resources/Css/img/san.jpg" alt="san-francisco">
+                       <img src="Resources/Css/img/san.jpg" alt="san-francisco">
                 <h3>San-Francisco</h3>
                 </div>
              
@@ -174,7 +181,7 @@
             </div>
             <div class="col span_1_of_4 box box2">
                 <div>
-                    <img src="/Resources/Css/img/london.jpg" alt="london">
+                    <img src="Resources/Css/img/london.jpg" alt="london">
                 <h3>London</h3>
                 </div>
                 
@@ -192,7 +199,7 @@
         </div>
         <div class="row row3">
             <div class="col steps-box span_1_of_2">
-                <img src="/Resources/Css/img/app-screen.webp" alt="phone img" class="app-screen">
+                <img src="Resources/Css/img/app-screen.webp" alt="phone img" class="app-screen">
             </div>
             <div class="col steps-box span_1_of_2">
                 <div class="work-steps">
@@ -208,8 +215,8 @@
                     <p>you are ready to go..! start placing orders</p>
                 </div>
                 <div class="dim">
-                      <a href="" class="btn-app"><img src="/Resources/Css/img/google-play-6647242_1280(1).jpg" alt="download"></a>
-                <a href="" class="btn-app apple"><img  src="/Resources/Css/img/download.jpg" alt="playstore"></a>
+                      <a href="" class="btn-app"><img src="Resources/Css/img/google-play-6647242_1280(1).jpg" alt="download"></a>
+                <a href="" class="btn-app apple"><img  src="Resources/Css/img/download.jpg" alt="playstore"></a>
             </div>
               
             </div>
@@ -227,7 +234,7 @@
                     facilis aut placeat. Illum laudantium ullam hic, odit sed numquam repellat doloremque, culpa omnis
                     impedit voluptatum enim quasi.
                     <cite>
-                        <img class="cus" src="/Resources/Css/img/cus1.jpg" alt="customer">Nick
+                        <img class="cus" src="Resources/Css/img/cus1.jpg" alt="customer">Nick
                     </cite>
                 </blockquote>
             </div>
@@ -238,7 +245,7 @@
                     facilis aut placeat. Illum laudantium ullam hic, odit sed numquam repellat doloremque, culpa omnis
                     impedit voluptatum enim quasi.
                     <cite>
-                        <img class="cus" src="/Resources/Css/img/cu2.jpg" alt="customer">Carlos
+                        <img class="cus" src="Resources/Css/img/cu2.jpg" alt="customer">Carlos
                     </cite>
                 </blockquote>
             </div>
@@ -249,7 +256,7 @@
                     facilis aut placeat. Illum laudantium ullam hic, odit sed numquam repellat doloremque, culpa omnis
                     impedit voluptatum enim quasi.
                     <cite>
-                        <img class="cus" src="/Resources/Css/img/cus3.jpg" alt="customer">Julie
+                        <img class="cus" src="Resources/Css/img/cus3.jpg" alt="customer">Julie
                     </cite>
                 </blockquote>
             </div>
@@ -425,11 +432,17 @@
             <p>copyright &copy; 2015 by Omnifood.All Rights are reserved</p>
         </div>
     </footer>
-    <script type="module" src="/vendors/JS/jquery.js"></script>
+    <script type="module" src="vendors/JS/jquery.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script type="module" src="/Resources/Js/script.js"></script>
+    <script type="module" src="Resources/Js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  function toggleMenu() {
+    const menu = document.getElementById('nav-links');
+    menu.classList.toggle('active');
+  }
+</script>
 </body>
 
 </html>
